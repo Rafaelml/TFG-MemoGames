@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: Dialogue with Doctor
+  m_EditorClassIdentifier: 
+  root: {fileID: 114807737703403470}
+  localVariables: {fileID: 114669568108450280}
+  nodes:
+  - {fileID: 114807737703403470}
+  - {fileID: 114986808604186894}
+  - {fileID: 114748912811275592}
+  - {fileID: 114889473746009332}
+  - {fileID: 114396331766240022}
+  ids:
+  - -57668
+  - -59760
+  - -62244
+  - -63888
+  - -67644
+  assetinited: 1
+--- !u!114 &114167038937301130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Doctor conver 3
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Doctor
+    msg: "\xA1Muy bien! Nos veremos la semana que viene en mi consulta. Pase un buen
+      d\xEDa."
+    character: 
+    parameter: 
+--- !u!114 &114396331766240022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114837864607368468}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1904
+    y: 277
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114414186237907396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986074b62c14ea9478e480b10c421f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - fork: {fileID: 114429349457135644}
+    text: "Rep\xEDtamelo, por favor"
+    parameter: 
+  - fork: {fileID: 114998903722509782}
+    text: Lo tengo claro
+    parameter: 
+--- !u!114 &114429349457135644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114527986858355300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: PhoneConvertStart
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Doctor
+    msg: "Buenos d\xEDas, Don &name . Soy el doctor Javier Ogallar, solo llamaba para
+      recordarle que a partir de hoy debe comenzar con la nueva medicaci\xF3n."
+    character: 
+    parameter: 
+--- !u!114 &114590396524725050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Doctor conver 2
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Doctor
+    msg: "Para tratar sus problemas de insomnio debe volver a tomar Flurazepam.\nRecuerde
+      tomar una c\xE1psula cada noche antes de acostarse durante una semana."
+    character: 
+    parameter: 
+  - name: Doctor
+    msg: "D\xEDgame, \xBFLo tiene claro?"
+    character: 
+    parameter: 
+--- !u!114 &114669568108450280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f903b5c05730594280dcba273e69bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switches: []
+--- !u!114 &114748912811275592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114986808604186894}
+  - {fileID: 114889473746009332}
+  isUnityObject: 1
+  objectContent: {fileID: 114414186237907396}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 908
+    y: 173
+    width: 300
+    height: 115
+  collapsed: 0
+--- !u!114 &114807737703403470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114986808604186894}
+  isUnityObject: 1
+  objectContent: {fileID: 114527986858355300}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 134
+    y: 223
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114837864607368468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: Enable_Maria
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114937068371661634}
+--- !u!114 &114889473746009332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114396331766240022}
+  isUnityObject: 1
+  objectContent: {fileID: 114167038937301130}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1376
+    y: 194
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114937068371661634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114986808604186894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114748912811275592}
+  isUnityObject: 1
+  objectContent: {fileID: 114590396524725050}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 547
+    y: 228
+    width: 300
+    height: 256
+  collapsed: 0
+--- !u!114 &114998903722509782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []

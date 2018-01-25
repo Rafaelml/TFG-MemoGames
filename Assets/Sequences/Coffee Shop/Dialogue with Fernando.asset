@@ -1,0 +1,569 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: Dialogue with Fernando
+  m_EditorClassIdentifier: 
+  root: {fileID: 114601421856411930}
+  localVariables: {fileID: 0}
+  nodes:
+  - {fileID: 114601421856411930}
+  - {fileID: 114559649653404814}
+  - {fileID: 114476650481389832}
+  - {fileID: 114300433065090230}
+  - {fileID: 114838379221184064}
+  - {fileID: 114616583830595250}
+  - {fileID: 114039937077013058}
+  - {fileID: 114663988064821410}
+  - {fileID: 114835028895188756}
+  - {fileID: 114023212078335518}
+  ids:
+  - -3218
+  - -6370
+  - -7598
+  - -9330
+  - -10516
+  - -13468
+  - -16414
+  - -22364
+  - -23630
+  - -26086
+  assetinited: 1
+--- !u!114 &114023212078335518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114656320270302578}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 3176
+    y: 149
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114039937077013058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114663988064821410}
+  isUnityObject: 1
+  objectContent: {fileID: 114752270648298412}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 2075
+    y: 129
+    width: 271
+    height: 256
+  collapsed: 0
+--- !u!114 &114076319813557564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114119025257277500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: AskingAge
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "Encantado &name, \xBFY me podr\xEDas decir tu edad?"
+    character: 
+    parameter: 
+--- !u!114 &114178278819635846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114183252114469886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Travel Details 1
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "Genial! Ya he registrado tus datos para el viaje. Bueno voy a darte los
+      detalles y as\xED podr\xE1s echarme una mano si alguien te los pide."
+    character: 
+    parameter: 
+--- !u!114 &114240057100852534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 1
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114284292563497298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114300433065090230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114838379221184064}
+  - {fileID: 114616583830595250}
+  - {fileID: 114616583830595250}
+  - {fileID: 114616583830595250}
+  isUnityObject: 1
+  objectContent: {fileID: 114804895780696612}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1248
+    y: 188
+    width: 300
+    height: 157
+  collapsed: 0
+--- !u!114 &114348562876125414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114476650481389832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114300433065090230}
+  isUnityObject: 1
+  objectContent: {fileID: 114119025257277500}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 857
+    y: 112
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114543906251218778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: Player_Name_Input
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114240057100852534}
+--- !u!114 &114559649653404814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114476650481389832}
+  isUnityObject: 1
+  objectContent: {fileID: 114543906251218778}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 504
+    y: 301
+    width: 300
+    height: 151
+  collapsed: 0
+--- !u!114 &114562708766262630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Bye Fernando
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "\xA1Muy bien!. Ahora me tengo que ir. Un placer, &name"
+    character: 
+    parameter: 
+--- !u!114 &114601421856411930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114559649653404814}
+  isUnityObject: 1
+  objectContent: {fileID: 114708580292288050}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 71
+    y: 26
+    width: 483
+    height: 256
+  collapsed: 0
+--- !u!114 &114616583830595250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114039937077013058}
+  isUnityObject: 1
+  objectContent: {fileID: 114183252114469886}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1664
+    y: 198
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114656320270302578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: Fernando_Leaves
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114701567582353158}
+--- !u!114 &114663988064821410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114039937077013058}
+  - {fileID: 114835028895188756}
+  isUnityObject: 1
+  objectContent: {fileID: 114727168103661074}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 2451
+    y: 175
+    width: 300
+    height: 115
+  collapsed: 0
+--- !u!114 &114698549262569360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114701567582353158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114707152686074996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: ErrorInYears
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "Anda! \xBFC\xF3mo vas a tener menos de 45 a\xF1os? Venga, dime la verdad."
+    character: 
+    parameter: 
+--- !u!114 &114708580292288050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: AskingName
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "Buenos d\xEDas, me llamo Fernando y soy la persona encargada de \norganizar
+      el viaje de ma\xF1ana. Se ha quedado una plaza libre y como me dijiste que estabas
+      interesado te la he reservado."
+    character: 
+    parameter: 
+  - name: Fernando
+    msg: "Solo necesito algunos datos sobre ti, \xBFCu\xE1l es tu nombre?"
+    character: 
+    parameter: 
+--- !u!114 &114727168103661074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986074b62c14ea9478e480b10c421f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - fork: {fileID: 114698549262569360}
+    text: Necesito que me lo repitas.
+    parameter: 
+  - fork: {fileID: 114348562876125414}
+    text: Genial! Ya tengo todos los detalles.
+    parameter: 
+--- !u!114 &114752270648298412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Travel Details 2
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: Fernando
+    msg: "Filnalmente el destino ser\xE1 Roma. El viernes cogeremos el vuelo de las
+      11:45 en la terminal 3 del aeropuerto de Barajas."
+    character: 
+    parameter: 
+  - name: Fernando
+    msg: "La vuelta ser\xE1 el lunes, y cogeremos el avi\xF3n a las 19:30. Todo el
+      mundo deber\xE1 llevar DNI, y no se podr\xE1 facturar maleta."
+    character: 
+    parameter: 
+--- !u!114 &114804895780696612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986074b62c14ea9478e480b10c421f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - fork: {fileID: 114178278819635846}
+    text: Menos de 45
+    parameter: 
+  - fork: {fileID: 114284292563497298}
+    text: 45 - 55
+    parameter: 
+  - fork: {fileID: 114076319813557564}
+    text: 55 - 65
+    parameter: 
+  - fork: {fileID: 114814903808205534}
+    text: "M\xE1s de 65"
+    parameter: 
+--- !u!114 &114814903808205534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114835028895188756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114023212078335518}
+  isUnityObject: 1
+  objectContent: {fileID: 114562708766262630}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 2812
+    y: 65
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114838379221184064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114300433065090230}
+  isUnityObject: 1
+  objectContent: {fileID: 114707152686074996}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1178
+    y: -17
+    width: 300
+    height: 186
+  collapsed: 0

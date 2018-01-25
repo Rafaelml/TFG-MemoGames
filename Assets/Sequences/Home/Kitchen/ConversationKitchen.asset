@@ -1,0 +1,601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: ConversationKitchen
+  m_EditorClassIdentifier: 
+  root: {fileID: 114025998605341366}
+  localVariables: {fileID: 0}
+  nodes:
+  - {fileID: 114025998605341366}
+  - {fileID: 114834758377936890}
+  - {fileID: 114400844012315976}
+  - {fileID: 114450676956120866}
+  - {fileID: 114012226022715272}
+  - {fileID: 114915953779262030}
+  - {fileID: 114135621568410780}
+  - {fileID: 114040194858757848}
+  - {fileID: 114168017715779668}
+  - {fileID: 114331056063951206}
+  ids:
+  - -43946
+  - -45686
+  - -47128
+  - -48114
+  - -49064
+  - -56584
+  - -65852
+  - -71694
+  - -16804
+  - -33246
+  assetinited: 1
+--- !u!114 &114012226022715272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114450676956120866}
+  isUnityObject: 1
+  objectContent: {fileID: 114644166176602518}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 771
+    y: 337
+    width: 300
+    height: 256
+  collapsed: 0
+--- !u!114 &114025596041158964
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: '"t"'
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 1
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114025998605341366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114834758377936890}
+  isUnityObject: 1
+  objectContent: {fileID: 114336735391019084}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 28
+    y: 200
+    width: 300
+    height: 256
+  collapsed: 0
+--- !u!114 &114040194858757848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114560807252005624}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 2184
+    y: 384
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114075183249886204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fragments: []
+--- !u!114 &114091236372926520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114135621568410780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114040194858757848}
+  isUnityObject: 1
+  objectContent: {fileID: 114993368679655128}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1827
+    y: 254
+    width: 300
+    height: 326
+  collapsed: 0
+--- !u!114 &114168017715779668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Fork/Single/Switch Fork
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114915953779262030}
+  - {fileID: 114135621568410780}
+  isUnityObject: 1
+  objectContent: {fileID: 114244292980490810}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1121
+    y: 287
+    width: 300
+    height: 89
+  collapsed: 0
+--- !u!114 &114208820742390478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114244292980490810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c01c67f8a983ba4c917bf0e5c8114df, type: 3}
+  m_Name: order=True
+  m_EditorClassIdentifier: 
+  comparationType: 0
+  id: order
+  value: {fileID: 114025596041158964}
+--- !u!114 &114331056063951206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114533705023530202}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 2165
+    y: 159
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114336735391019084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Ordenado
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: '&partner'
+    msg: "No s\xE9 qu\xE9 hacer de comer... \nNecesito tu ayuda."
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "\xBFYa has recogido todo?"
+    character: 
+    parameter: 
+--- !u!114 &114377181936376120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114400844012315976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114168017715779668}
+  isUnityObject: 1
+  objectContent: {fileID: 114964687546449002}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 712
+    y: 121
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114447965647979894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114450676956120866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114511773233243244}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1359
+    y: 483
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114511773233243244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: LoadHallWay
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114208820742390478}
+--- !u!114 &114533705023530202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: LoadHallWay
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114447965647979894}
+--- !u!114 &114560807252005624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: LoadRecipes
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114377181936376120}
+--- !u!114 &114644166176602518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Pedir Recoger
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: '&partner'
+    msg: "Vale, pues comprueba que todo est\xE9 en su sitio."
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: Y luego ven a ayudarme.
+    character: 
+    parameter: 
+--- !u!114 &114802566702467990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986074b62c14ea9478e480b10c421f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - fork: {fileID: 114874849983791386}
+    text: "S\xED, ya est\xE1 todo en su sitio"
+    parameter: 
+  - fork: {fileID: 114091236372926520}
+    text: Creo que voy a volver a revisarlo
+    parameter: 
+--- !u!114 &114834758377936890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114400844012315976}
+  - {fileID: 114012226022715272}
+  isUnityObject: 1
+  objectContent: {fileID: 114802566702467990}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 365
+    y: 268
+    width: 300
+    height: 115
+  collapsed: 0
+--- !u!114 &114839977944381964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114874849983791386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f2e9457b5219e4190168f539aba5bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forks: []
+--- !u!114 &114908349386405954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: ok
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: '&partner'
+    msg: "\xA1Muy bien!"
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "Me ha llamado tu hija. \nNecesita que vaya a recoger a Sofia, tu nieta,
+      al colegio."
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "\xBFPuedes encargarte t\xFA de hacer la comida?"
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "Vuelvo enseguida \xA1Hasta luego!"
+    character: 
+    parameter: 
+--- !u!114 &114915953779262030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114331056063951206}
+  isUnityObject: 1
+  objectContent: {fileID: 114908349386405954}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1485
+    y: 27
+    width: 300
+    height: 328
+  collapsed: 0
+--- !u!114 &114964687546449002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: Store
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114839977944381964}
+--- !u!114 &114993368679655128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: FeedBack
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: '&partner'
+    msg: "\xBFEst\xE1s seguro? \xBFTambi\xE9n has mirado en &room ?"
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "Anda, comprueba que est\xE9 todo en su sitio."
+    character: 
+    parameter: 
+  - name: '&partner'
+    msg: "\xA1Pero date prisa!"
+    character: 
+    parameter: 

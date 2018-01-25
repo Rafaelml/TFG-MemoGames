@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1677187367543838}
+  m_IsPrefabParent: 1
+--- !u!1 &1677187367543838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4971684504332236}
+  - component: {fileID: 114769399303867344}
+  - component: {fileID: 114522882490066792}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4971684504332236
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677187367543838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114522882490066792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677187367543838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 821cf059aaca95047b6a29ded3ebfd06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114769399303867344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677187367543838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a861580ee67affc4f8fb259e4d512cda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ovenPanel: {fileID: 1441254627443350, guid: b9ceb3b6e8223214580bf2a764c41f92, type: 2}
+  tapPanel: {fileID: 1562434060155714, guid: 88590deb99e70b64184cf15da0ded8a2, type: 2}
+  ceramicHobPanel: {fileID: 1056997986174550, guid: 58677883224dc4d4897d16fff98fb1b3,
+    type: 2}
+  tablePanel: {fileID: 1758609799239994, guid: e7ca4df737010ca45aed05424ff6bd79, type: 2}
+  refrigeratorPanel: {fileID: 1442453129962912, guid: 68cd390e988efc84e8d6ec4fd542fbbe,
+    type: 2}
+  correct: {fileID: 1479413315719554, guid: 5e01c4f2834b4144fa4a27aa8e4e0265, type: 2}
+  mistake: {fileID: 1481438620648394, guid: ecd000139cd174b41907d35c64c704f8, type: 2}
+  timer: {fileID: 1909631718704806, guid: a5a649c7637a1ca4a82694cf8351ee81, type: 2}
+  winPanel: {fileID: 1203942767686132, guid: 541a9493b370db6459ca0576b7c813cf, type: 2}
+  gameOverPanel: {fileID: 1560809601248432, guid: 857cbeadef363294e99b895c1192a71f,
+    type: 2}
+  buttonPanel: {fileID: 1043075876978998, guid: 81b0aadd80838f44babb85c78c7bfde9,
+    type: 2}
+  recipePanel: {fileID: 1929223625348136, guid: 8b143d6f49e6d404982bad7057fa2bd2,
+    type: 2}
+  steps:
+  - drag: {fileID: 1138256090860112, guid: b2d54b8ad57988b46b1bc352ff61e8e8, type: 2}
+    drop: {fileID: 1302941228348888, guid: 51702f8a9e8bf8741b186475091d3563, type: 2}
+    action: 10
+    sprite: {fileID: 21300000, guid: 87ebbef0e87227945af4a24159ab6c0f, type: 3}
+  - drag: {fileID: 1138256090860112, guid: b2d54b8ad57988b46b1bc352ff61e8e8, type: 2}
+    drop: {fileID: 1261887320401208, guid: 2d3c4eec3979e374a9444cb1e8f2421d, type: 2}
+    action: 0
+    sprite: {fileID: 0}
+  - drag: {fileID: 1159672141778206, guid: 170dcae73e3f43844b81d3f5311680f1, type: 2}
+    drop: {fileID: 1138256090860112, guid: b2d54b8ad57988b46b1bc352ff61e8e8, type: 2}
+    action: 12
+    sprite: {fileID: 21300000, guid: f01c47651bc0f994b9d0a8de0a870053, type: 3}
+  - drag: {fileID: 1138256090860112, guid: b2d54b8ad57988b46b1bc352ff61e8e8, type: 2}
+    drop: {fileID: 1302941228348888, guid: 51702f8a9e8bf8741b186475091d3563, type: 2}
+    action: 11
+    sprite: {fileID: 21300000, guid: 7f34a5bcbec0a49458a8c7f541edb45f, type: 3}
+  - drag: {fileID: 1138256090860112, guid: b2d54b8ad57988b46b1bc352ff61e8e8, type: 2}
+    drop: {fileID: 1327811974997196, guid: 4dfa358d3827e5245ae6654fbf2b5c97, type: 2}
+    action: 12
+    sprite: {fileID: 21300000, guid: cd826188e45dbbc408215ec6738bd996, type: 3}
+  - drag: {fileID: 1597567006639280, guid: b6bade3e43e48644db210ed3a9f7b6be, type: 2}
+    drop: {fileID: 1327811974997196, guid: 4dfa358d3827e5245ae6654fbf2b5c97, type: 2}
+    action: 12
+    sprite: {fileID: 0}
+  - drag: {fileID: 1242998539682884, guid: 4a57fde50094af541bc6d8b724d698ba, type: 2}
+    drop: {fileID: 1327811974997196, guid: 4dfa358d3827e5245ae6654fbf2b5c97, type: 2}
+    action: 12
+    sprite: {fileID: 21300000, guid: 9508b3c785312ad44836221f5db1d643, type: 3}

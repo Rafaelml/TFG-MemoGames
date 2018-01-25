@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e0d983d07aae244b4199260a850e12, type: 3}
+  m_Name: ConversationAtKitchen
+  m_EditorClassIdentifier: 
+  root: {fileID: 114383942513242450}
+  localVariables: {fileID: 114835895455614120}
+  nodes:
+  - {fileID: 114383942513242450}
+  - {fileID: 114368789230422366}
+  - {fileID: 114251569249682482}
+  - {fileID: 114596576076422522}
+  - {fileID: 114800126990048988}
+  ids:
+  - -68052
+  - -74162
+  - -75278
+  - -78602
+  - -139896
+  assetinited: 1
+--- !u!114 &114251569249682482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114800126990048988}
+  isUnityObject: 1
+  objectContent: {fileID: 114768851718389088}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 899
+    y: 99
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114252996151643108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daaa0a8c5652f247939f4ab49339994, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  f: 0
+  d: 0
+  s: 
+  v2: {x: 0, y: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 0}
+  b: 0
+  c: 0
+  whatIs: System.Boolean
+--- !u!114 &114368789230422366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114251569249682482}
+  - {fileID: 114596576076422522}
+  isUnityObject: 1
+  objectContent: {fileID: 114658812469108242}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 463
+    y: 256
+    width: 300
+    height: 115
+  collapsed: 0
+--- !u!114 &114383942513242450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114368789230422366}
+  isUnityObject: 1
+  objectContent: {fileID: 114757946830413372}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 76
+    y: 223
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114521800540066886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Pedir recoger
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: 
+    msg: "Est\xE1 bien, date otra vuelta y ven a ayudarme cuando acabes"
+    character: Esposa
+    parameter: 
+--- !u!114 &114596576076422522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 114800126990048988}
+  isUnityObject: 1
+  objectContent: {fileID: 114521800540066886}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 899
+    y: 338
+    width: 300
+    height: 186
+  collapsed: 0
+--- !u!114 &114658812469108242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986074b62c14ea9478e480b10c421f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - fork: {fileID: 0}
+    text: Si ya esta todo
+    parameter: 
+  - fork: {fileID: 0}
+    text: No estoy seguro, voy a revisar
+    parameter: 
+--- !u!114 &114757946830413372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Pregunta orden
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: 
+    msg: "\xBFQue tal? Ya has recogido todo"
+    character: Esposa
+    parameter: 
+--- !u!114 &114768851718389088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548e5e0d049bc4d4693000a78d1e305f, type: 3}
+  m_Name: Estupendo
+  m_EditorClassIdentifier: 
+  fragments:
+  - name: 
+    msg: "Estupendo, ayudame entonces a preparar la comida de ma\xF1ana\n(empieza
+      minijuego)"
+    character: Esposa
+    parameter: 
+--- !u!114 &114800126990048988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20fbd0b6e627da04c86fdd3bf4b7fffb, type: 3}
+  m_Name: GameEvent
+  m_EditorClassIdentifier: 
+  childs:
+  - {fileID: 0}
+  isUnityObject: 1
+  objectContent: {fileID: 114944122140808612}
+  secuence: {fileID: 11400000}
+  position:
+    serializedVersion: 2
+    x: 1338
+    y: 275
+    width: 300
+    height: 109
+  collapsed: 0
+--- !u!114 &114835895455614120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f903b5c05730594280dcba273e69bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switches: []
+--- !u!114 &114944122140808612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a413602f9429a24e943fe8c6b8b2508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys:
+  - synchronous
+  values:
+  - {fileID: 114252996151643108}
