@@ -12,3 +12,5 @@ Objetivo:
 
 Con el juego que presentamos se pretende proporcionar una actividad de ocio que permita, no sólo garantizar el entretenimiento que produce el juego en sí mismo, sino además estimular las habilidades y capacidades cognitivas que están implicadas en su ejecución: atención, percepción, gnosias, memoria episódica visual, velocidad de procesamiento y orientación espacial.
 Dado que una de las principales quejas de las personas mayores está relacionada con situaciones de pérdida de objetos y dificultades para recordar sucesos recientes, este juego pretende incidir especialmente en dos de las capacidades que se pueden ver alteradas como son la memoria episódica y la atención. Por ello se propone este juego.
+Este proyecto es la continuación de memogames
+
